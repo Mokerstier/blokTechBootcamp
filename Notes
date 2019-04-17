@@ -1,0 +1,20 @@
+## Closure 
+
+Het gebruik van variabelen die buiten de scope zijn gedefineerd
+
+## Recursion
+
+Functie die zichzelf aanroept
+    `voorbeeld`
+    
+    `funtion reCursion(a){
+    if(iets < 0){
+    return reCursion(-a)
+    }
+    }`
+    
+## Datatypes
+
+string = "", object = {key: value}, 
+array = [item, item2, etc], boolean = true || false, 
+number(integer) = 1, function mijnFunctie(){ hier gebeurt iets}
