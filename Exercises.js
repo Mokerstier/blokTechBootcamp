@@ -53,3 +53,17 @@ function min (x, y){
     } else if (x > y){              // is x groter als y 
         return y;                   // print y
     } else return x;}               // anders print x (want die is dan kleiner)
+
+// #5 Recursion
+
+function isEven(number){
+     if (number == 0){
+          return true;
+     }else if(number == 1){
+          return false;
+     } else if(number < 0){        // als nummer een negatieve waarde heeft hef de min op door (- -number)
+          return isEven(-number);
+     }else{ 
+          return isEven(number - 2); // voer de functie nogmaals uit met 2 eraf (totdat je 0 of 1 bereikt)
+     }
+}
