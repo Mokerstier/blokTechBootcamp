@@ -1,0 +1,21 @@
+
+//CODE
+//PIRAMIDE
+
+for (let hekkie = "#"; hekkie.length < 8; hekkie += "#") {
+    console.log(hekkie)}
+
+//RESULT
+//#
+//##
+//###
+//####
+//#####
+//######
+//#######
+
+//FIZZBUZZ
+
+for (let number = 0; number < 101; number++){ if ((number % 3 === 0) && (number % 5 ===0)){ console.log("FizzBuzz")
+}else if(number % 3 === 0){console.log("Fizz")} else if(number % 5 === 0){console.log("Buzz")}
+else{ console.log(number)}}
