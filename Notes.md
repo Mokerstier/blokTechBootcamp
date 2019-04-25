@@ -15,9 +15,9 @@ Functie die zichzelf aanroept
     
 ## Datatypes
 
-    string = "", object = {key: value}, 
+    'string = "", object = {key: value}, 
     array = [item, item2, etc], boolean = true || false, 
-    number(integer) = 1, function mijnFunctie(){ hier gebeurt iets}
+    number(integer) = 1, function mijnFunctie(){ hier gebeurt iets}'
 
 ## #5 Higher order fuctions
 
